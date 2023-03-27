@@ -1,0 +1,224 @@
+/* font-family: 'Georama', sans-serif; */
+
+body{
+    background-color: darkgray;
+    height: 1500px;
+}
+
+#yuti{
+    position: absolute;
+    left: 20%;
+    width: 750px;
+    height: 1500px;
+    padding: 15px;
+    background-color: rgb(44, 42, 40);
+    box-shadow: 7px 7px 15px 15px;
+}
+
+#sabat{
+    color: whitesmoke;
+    position: absolute;
+    left: 50px;
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 45px;
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10000;
+}
+
+#chemidev{
+    font-family: 'Just Me Again Down Here', sans-serif;
+    color: lightblue;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+#foto{
+    width: 10cm;
+    height: 5cm;
+    position: absolute;
+    top: 175px;
+}
+
+#xazi{
+    position: absolute;
+    top: 370px;
+    width: 83%;
+    color: gray;
+}
+
+#aboutme{
+    position: absolute;
+    top: 200px;
+    right: 115px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: whitesmoke;
+}
+
+#skills{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    color: whitesmoke;
+    font-family: 'Edu NSW ACT Foundation', sans-serif;   
+}
+
+#myskillst{
+    position: absolute;
+    top: 445px;
+    left: 50px;
+    color: darkgray;
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    font-size: smaller;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 50%;
+  background-color: #ddd; /* Grey background */
+    position: relative;
+    top: 450px;
+    left: 30px;
+    border-radius: 100px;
+    border-left: 100px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+
+}
+
+.html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 35%; background-color: #f44336;} /* Red */
+.php {width: 5%; background-color: #808080;} /* Dark Grey */
+#htmlt{
+    color: whitesmoke;
+    position: relative;
+    top: 460px;
+    left: 35px;
+    font-family: 'Georama', sans-serif;
+}
+
+#csst{
+    color: whitesmoke;
+    position: relative;
+    top: 460px;
+    left: 35px;
+}
+
+#jst{
+    color: whitesmoke;
+    position: relative;
+    top: 460px;
+    left: 35px;
+}
+
+#phpt{
+    color: whitesmoke;
+    position: relative;
+    top: 460px;
+    left: 35px;
+}
+
+#xaziabout{
+    width: 85%;
+    position: absolute;
+    top: 1420px;
+}
+
+#contactt{
+    color: whitesmoke;
+    position: absolute;
+    top: 1390px;
+    font-family: 'Arvo', serif;
+    font-size: medium;
+}
+
+.fa {
+    position: relative;
+    top: 1030px;
+    left: 180px;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    border-radius: 100px;
+}
+  
+  /* Add a hover effect if you want */
+.fa-facebook:hover {
+    background-color: #201c1c;
+    width: 50px;
+    border-radius: 100px;
+    animation: infinite;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram{
+    background: pink;
+    color: red;
+}
+
+.fa-google{
+    background: purple;
+    color: blue;
+}
+
+.fa-google:hover{
+    background-color: white;
+    color: red;
+    border: 100px;
+    animation: infinite;
+}
+
+.fa-instagram:hover{
+    background: red;
+    color: white;
+    border: 100px;
+    animation: infinite;
+}
+
+#xaziproj{
+    position: absolute;
+    bottom: 630px;
+    width: 92%;
+}
+
+#projt{
+    color: whitesmoke;
+    font-family: 'Just Me Again Down Here', sans-serif;
+    position: absolute;
+    bottom: 627px;
+}
+
+#proj1{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 450px;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
+}
+
+#proj1:hover{
+    opacity: 2;
+    background-color: #201c1c;
+    width: 250px;
+    border-radius: 10px;
+    animation: infinite;
+}
