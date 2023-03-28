@@ -87,20 +87,51 @@ span{
     left: 30px;
     border-radius: 100px;
     border-left: 100px;
+    padding: 10px;
 }
 
 .skills {
   text-align: right; /* Right-align text */
   padding-top: 5px; /* Add top padding */
   padding-bottom: 5px; /* Add bottom padding */
-  color: white; /* White text color */
+  color: black; /* White text color */
 
 }
 
-.html {width: 100%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 35%; background-color: #f44336;} /* Red */
-.php {width: 5%; background-color: #808080;} /* Dark Grey */
+.html {width: 0%; background-color: #04AA6D; border-radius:190px;
+    transition: width 1s, height 5s, background-color 5s, transform 5s;} /* Green */
+.css {width: 0%; border-radius: 190px; background-color: #2196F3; transition: width 1s, height 5s, background-color 5s, transform 5s;} /* Blue */
+.js {width: 0%; border-radius:190px; background-color: #f44336; transition: width 1s, height 5s, background-color 5s, transform 5s;} /* Red */
+.php {width: 0%; border-radius:190px; background-color: #808080; transition: width 1s, height 5s, background-color 5s, transform 5s;} /* Dark Grey */
+
+/* Hover Section Start */
+
+.php:hover{
+    animation: infinite;
+    width: 5%;
+    border-radius:190px;
+}
+
+.js:hover{
+    animation: infinite;
+    width: 35%;
+    border-radius: 190px;
+}
+
+.html:hover{
+    animation: infinite;
+    width: 100%;
+    border-radius: 190px;
+}
+
+.css:hover{
+    animation: infinite;
+    width: 35%;
+    border-radius: 190px;
+}
+
+/* Hover Section End */
+
 #htmlt{
     color: whitesmoke;
     position: relative;
@@ -207,6 +238,40 @@ span{
     bottom: 627px;
 }
 
+#proj2{
+    border-radius: 10px;
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    bottom: 210px;
+    left: 15px;
+    transition: width 2s, height 5s, background-color 5s, transform 5s;
+}
+
+#codes1{
+    color: wheat;
+    position: absolute;
+    bottom: 180px;
+    left: 15px;
+    font-family: 'Just Me Again Down Here', sans-serif;
+    font-size: 18px;
+    transition: width 2s, height 5s, background-color 5s, transform 5s, font-size 2s;
+}
+
+#codes1:hover{
+    animation: infinite;
+    width: 150px;
+    font-size: 22px;
+}
+
+#proj2:hover{
+    opacity: 2;
+    background-color: #201c1c;
+    width: 350px;
+    border-radius: 10px;
+    animation: infinite;
+}
+
 #proj1{
     border-radius: 10px;
     width: 200px;
@@ -226,19 +291,18 @@ span{
 
 #codes{
     color: whitesmoke;
-    font-family: 'Georama', sans-serif;
     position: absolute;
     font-weight: 5000;
-    font-size: large;
     bottom: 430px;
-    transition: font-size 1.5s, bottom 2s;
+    font-family: 'Just Me Again Down Here', sans-serif;
+    font-size: 18px;
+    transition: width 2s, height 5s, background-color 5s, transform 5s, font-size 2s;
+
 }
 
 #codes:hover{
-    opacity: 2;
-    position: absolute;
-    bottom: 415px;
-    font-size: 20px;
     animation: infinite;
+    width: 150px;
+    font-size: 22px;
 }
 
